@@ -19,7 +19,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          lfs: false # リポジトリ履歴を汚さないためにLFSは無効化
+          lfs: true # リポジトリ履歴を汚さないためにLFSは無効化
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
